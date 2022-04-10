@@ -1,4 +1,150 @@
 <<<<<<< HEAD
+         body,
+         ul,
+         li {
+             padding: 0;
+             font-family: Arial, Helvetica, sans-serif;
+         }
+         
+         header {
+             padding: 10px;
+             color: yellow;
+             background: black;
+             text-align: center;
+             background-color: #34aae1, 14px;
+         }
+         /* Navigation bar */
+         
+         nav {
+             background-color: #ede9e9;
+             padding: 14px;
+             position: static;
+         }
+         
+         nav ul {
+             white-space: nowrap;
+             max-width: 1200px;
+             margin: 0 auto;
+         }
+         
+         nav li {
+             display: inline-block;
+             width: 20%;
+             font-size: 15px;
+         }
+         
+         nav li a {
+             text-decoration: none;
+             color: #4b4b4b;
+         }
+         
+         ul {
+             list-style-type: none;
+         }
+         
+         .mobile {
+             text-align: left;
+             white-space: nowrap;
+         }
+         
+         .appliances {
+             text-align: left;
+             white-space: nowrap;
+         }
+         
+         .fashion {
+             text-align: left;
+             white-space: nowrap;
+         }
+         
+         .electronics {
+             text-align: left;
+             white-space: nowrap;
+         }
+         
+         li {
+             padding-left: 10px;
+             padding-right: 10px;
+         }
+         
+         li.phone1 {
+             position: relative;
+             top: -38px;
+         }
+         
+         li.phone4 {
+             position: relative;
+             top: -20px;
+         }
+         
+         li.phone5 {
+             position: relative;
+             top: -23px;
+         }
+         
+         li.phone6 {
+             position: relative;
+             top: -28px;
+         }
+         
+         .mobile li {
+             display: inline-block;
+         }
+         
+         .appliances li {
+             display: inline-block;
+         }
+         
+         .fashion li {
+             display: inline-block;
+         }
+         
+         .electronics li {
+             display: inline-block;
+         }
+         
+         section p.join {
+             font-size: 28px;
+             text-align: center;
+             padding-top: 10px;
+         }
+         
+         section.order {
+             text-align: center;
+             color: #78ebd6;
+             background-color: #3c3838;
+         }
+         
+         section form {
+             padding-bottom: 20px;
+             margin-top: 10;
+         }
+         
+         section form input {
+             margin: 0px 10px;
+             padding: 10px 20px;
+             font-size: 24px;
+             border-radius: 24px;
+             border: 4px solid white;
+         }
+         
+         footer {
+             text-align: center;
+             margin: 0 auto;
+             color: grey;
+             background-color: #acb4d685;
+             padding: 0.5px;
+         }
+         
+         form input:focus {
+             border: 4px dashed #4b4b4b;
+             outline: none;
+         }
+         
+         form input:valid {
+             border: 4px solid #71d300;
+         }
+||||||| 335bdf7
 body,
 ul,
 li {
@@ -49,21 +195,6 @@ ul {
     white-space: nowrap;
 }
 
-.appliances {
-    text-align: left;
-    white-space: nowrap;
-}
-
-.fashion {
-    text-align: left;
-    white-space: nowrap;
-}
-
-.electronics {
-    text-align: left;
-    white-space: nowrap;
-}
-
 li {
     padding-left: 10px;
     padding-right: 10px;
@@ -90,18 +221,6 @@ li.phone6 {
 }
 
 .mobile li {
-    display: inline-block;
-}
-
-.appliances li {
-    display: inline-block;
-}
-
-.fashion li {
-    display: inline-block;
-}
-
-.electronics li {
     display: inline-block;
 }
 
@@ -145,125 +264,249 @@ form input:focus {
 
 form input:valid {
     border: 4px solid #71d300;
+}
 =======
-body,
-ul,
-li {
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    padding: 10px;
-    color: yellow;
-    background: black;
-    text-align: center;
-    background-color: #34aae1, 14px;
-}
-
-
-/* Navigation bar */
-
-nav {
-    background-color: #ede9e9;
-    padding: 14px;
-    position: static;
-}
-
-nav ul {
-    white-space: nowrap;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-nav li {
-    display: inline-block;
-    width: 20%;
-    font-size: 15px;
-}
-
-nav li a {
-    text-decoration: none;
-    color: #4b4b4b;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.mobile {
-    text-align: left;
-    white-space: nowrap;
-}
-
-li {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-li.phone1 {
-    position: relative;
-    top: -38px;
-}
-
-li.phone4 {
-    position: relative;
-    top: -20px;
-}
-
-li.phone5 {
-    position: relative;
-    top: -23px;
-}
-
-li.phone6 {
-    position: relative;
-    top: -28px;
-}
-
-.mobile li {
-    display: inline-block;
-}
-
-section p.join {
-    font-size: 28px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-section.order {
-    text-align: center;
-    color: #78ebd6;
-    background-color: #3c3838;
-}
-
-section form {
-    padding-bottom: 20px;
-    margin-top: 10;
-}
-
-section form input {
-    margin: 0px 10px;
-    padding: 10px 20px;
-    font-size: 24px;
-    border-radius: 24px;
-    border: 4px solid white;
-}
-
-footer {
-    text-align: center;
-    margin: 0 auto;
-    color: grey;
-    background-color: #acb4d685;
-    padding: 0.5px;
-}
-
-form input:focus {
-    border: 4px dashed #4b4b4b;
-    outline: none;
-}
-
-form input:valid {
-    border: 4px solid #71d300;
->>>>>>> 335bdf78619363923a68096bd44cc21514a7caca
-}
+        <<<<<<< HEAD body,
+    ul,
+    li {
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    header {
+        padding: 10px;
+        color: yellow;
+        background: black;
+        text-align: center;
+        background-color: #34aae1, 14px;
+    }
+    /* Navigation bar */
+    
+    nav {
+        background-color: #ede9e9;
+        padding: 14px;
+        position: static;
+    }
+    
+    nav ul {
+        white-space: nowrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    nav li {
+        display: inline-block;
+        width: 20%;
+        font-size: 15px;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        color: #4b4b4b;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .mobile {
+        text-align: left;
+        white-space: nowrap;
+    }
+    
+    .appliances {
+        text-align: left;
+        white-space: nowrap;
+    }
+    
+    .fashion {
+        text-align: left;
+        white-space: nowrap;
+    }
+    
+    .electronics {
+        text-align: left;
+        white-space: nowrap;
+    }
+    
+    li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    li.phone1 {
+        position: relative;
+        top: -38px;
+    }
+    
+    li.phone4 {
+        position: relative;
+        top: -20px;
+    }
+    
+    li.phone5 {
+        position: relative;
+        top: -23px;
+    }
+    
+    li.phone6 {
+        position: relative;
+        top: -28px;
+    }
+    
+    .mobile li {
+        display: inline-block;
+    }
+    
+    .appliances li {
+        display: inline-block;
+    }
+    
+    .fashion li {
+        display: inline-block;
+    }
+    
+    .electronics li {
+        display: inline-block;
+    }
+    
+    section p.join {
+        font-size: 28px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    section.order {
+        text-align: center;
+        color: #78ebd6;
+        background-color: #3c3838;
+    }
+    
+    section form {
+        padding-bottom: 20px;
+        margin-top: 10;
+    }
+    
+    section form input {
+        margin: 0px 10px;
+        padding: 10px 20px;
+        font-size: 24px;
+        border-radius: 24px;
+        border: 4px solid white;
+    }
+    
+    footer {
+        text-align: center;
+        margin: 0 auto;
+        color: grey;
+        background-color: #acb4d685;
+        padding: 0.5px;
+    }
+    
+    form input:focus {
+        border: 4px dashed #4b4b4b;
+        outline: none;
+    }
+    
+    form input:valid {
+        border: 4px solid #71d300;
+        =======body,
+        ul,
+        li {
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            padding: 10px;
+            color: yellow;
+            background: black;
+            text-align: center;
+            background-color: #34aae1, 14px;
+        }
+        /* Navigation bar */
+        nav {
+            background-color: #ede9e9;
+            padding: 14px;
+            position: static;
+        }
+        nav ul {
+            white-space: nowrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        nav li {
+            display: inline-block;
+            width: 20%;
+            font-size: 15px;
+        }
+        nav li a {
+            text-decoration: none;
+            color: #4b4b4b;
+        }
+        ul {
+            list-style-type: none;
+        }
+        .mobile {
+            text-align: left;
+            white-space: nowrap;
+        }
+        li {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        li.phone1 {
+            position: relative;
+            top: -38px;
+        }
+        li.phone4 {
+            position: relative;
+            top: -20px;
+        }
+        li.phone5 {
+            position: relative;
+            top: -23px;
+        }
+        li.phone6 {
+            position: relative;
+            top: -28px;
+        }
+        .mobile li {
+            display: inline-block;
+        }
+        section p.join {
+            font-size: 28px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        section.order {
+            text-align: center;
+            color: #78ebd6;
+            background-color: #3c3838;
+        }
+        section form {
+            padding-bottom: 20px;
+            margin-top: 10;
+        }
+        section form input {
+            margin: 0px 10px;
+            padding: 10px 20px;
+            font-size: 24px;
+            border-radius: 24px;
+            border: 4px solid white;
+        }
+        footer {
+            text-align: center;
+            margin: 0 auto;
+            color: grey;
+            background-color: #acb4d685;
+            padding: 0.5px;
+        }
+        form input:focus {
+            border: 4px dashed #4b4b4b;
+            outline: none;
+        }
+        form input:valid {
+            border: 4px solid #71d300;
+            >>>>>>>335bdf78619363923a68096bd44cc21514a7caca
+        }
+>>>>>>> b24b3cfab54276001a3bbeecd88bb30251bbf015
