@@ -48,6 +48,21 @@ ul {
     white-space: nowrap;
 }
 
+.appliances {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.fashion {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.electronics {
+    text-align: left;
+    white-space: nowrap;
+}
+
 li {
     padding-left: 10px;
     padding-right: 10px;
@@ -74,6 +89,18 @@ li.phone6 {
 }
 
 .mobile li {
+    display: inline-block;
+}
+
+.appliances li {
+    display: inline-block;
+}
+
+.fashion li {
+    display: inline-block;
+}
+
+.electronics li {
     display: inline-block;
 }
 
